@@ -20,7 +20,6 @@ public class BooksAdapter extends ArrayAdapter<Book> {
 
     public BooksAdapter(Context context, int resource, ArrayList<Book> booksList) {
         super(context, resource, booksList);
-
         this.context = context;
         this.booksList = booksList;
         this.resource = resource;
