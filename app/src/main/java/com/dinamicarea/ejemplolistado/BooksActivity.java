@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class BooksActivity extends AppCompatActivity {
 
     ListView lvLibros;
     ArrayList<Book> booksList;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Creamos el adapter y se le pasa como parámetro el contexto, el xml de la celda y el listado de libros
         BooksAdapter adapter = new BooksAdapter(
-                MainActivity.this,
+                BooksActivity.this,
                 R.layout.book_list_item,
                 booksList);
 
