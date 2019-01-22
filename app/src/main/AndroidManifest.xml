@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MoviesActivity" />
+        <activity android:name=".FilmsActivity" />
         <activity android:name=".BooksActivity">
 
         </activity>

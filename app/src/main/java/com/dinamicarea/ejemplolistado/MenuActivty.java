@@ -29,7 +29,7 @@ public class MenuActivty extends AppCompatActivity {
         btnMovies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navigateTo(MoviesActivity.class);
+                navigateTo(FilmsActivity.class);
             }
         });
 
